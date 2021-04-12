@@ -8,7 +8,7 @@ Durante as aulas, foi ensinado como desenvolver testes unitários para validar u
 * JUnit e Mockito
 
 👣 Passo a passo:
-* Download do [projeto base](https://github.com/rpeleias/beer_api_digital_innovation_one) através do Git;
+* Download do [projeto base](https://github.com/rpeleias/beer_api_digital_innovation_one);
 * Desenvolvimento de testes unitários para o método 'decrement' da camada de serviço;
 * Acréscimo dos atributos 'int min' e 'boolean critical' à entidade 'beer' e implementação do método 'decrement' na classe 'BeerService';
 * Desenvolvimento de testes unitários para o método 'decrement' da camada controller;
