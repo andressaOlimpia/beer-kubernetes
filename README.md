@@ -5,7 +5,9 @@
 Durante as aulas, foi ensinado como desenvolver testes unitários para validar um sistema de gerenciamento de estoques de cerveja e como implementar funcionalidades através da prática do TDD (Test Driven Development / Desenvolvimento orientado a teste). O objetivo desse projeto foi implementar a funcionalidade de decremento utilizando a técnica do TDD em um projeto base. Além disso, durante o desenvolvimento dos testes, percebi a relevância de acrescentar no projeto base o conceito de estoque mínimo. Para isso, novas funcionalidades foram desenvolvidas também com o uso de TDD: verificar se o estoque está crítico toda vez que um decremento é realizado e visualizar os estoques críticos.
 
 ⚙️ Foram utilizados para o desenvolvimento dos testes:
-* JUnit e Mockito
+* JUnit
+* Mockito
+* Hamcrest
 
 👣 Passo a passo:
 * Download do [projeto base](https://github.com/rpeleias/beer_api_digital_innovation_one);
