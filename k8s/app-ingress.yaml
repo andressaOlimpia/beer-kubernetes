@@ -1,0 +1,14 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: beerkubernetes
+  namespace: stock
+spec:
+  rules:
+    - host: dev.beerstock
+      http:
+        paths:
+          - path: /app
+            backend:
+              serviceName: beerkubernetes
+              servicePort: 8080
